@@ -1,7 +1,7 @@
 package ${basePackage}.controller;
 import ${basePackage}.core.result.Result;
 import ${basePackage}.core.result.ResultGenerator;
-import ${basePackage}.model.${modelNameUpperCamel};
+import ${basePackage}.pojo.model.${modelNameUpperCamel};
 import ${basePackage}.service.${modelNameUpperCamel}Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import io.swagger.annotations.ApiOperation;
 
 import javax.annotation.Resource;
 import java.util.List;

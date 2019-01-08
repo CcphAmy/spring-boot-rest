@@ -63,7 +63,10 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
         converters.add(converter);
     }
 
-    //swagger路径扫描
+    /**
+     * swagger路径扫描
+     * @param registry
+     */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("swagger-ui.html")
@@ -73,7 +76,11 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
 
     }
 
-    //统一异常处理
+
+    /**
+     * 统一异常处理
+     * @param exceptionResolvers
+     */
     @Override
     public void configureHandlerExceptionResolvers(List<HandlerExceptionResolver> exceptionResolvers) {
         exceptionResolvers.add(new HandlerExceptionResolver() {

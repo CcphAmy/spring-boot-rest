@@ -1,5 +1,5 @@
 package ${basePackage}.service;
-import ${basePackage}.model.${modelNameUpperCamel};
+import ${basePackage}.pojo.model.${modelNameUpperCamel};
 import ${basePackage}.core.service.Service;
 
 

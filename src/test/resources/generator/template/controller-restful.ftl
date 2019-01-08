@@ -2,7 +2,7 @@ package ${basePackage}.controller;
 
 import ${basePackage}.core.result.Result;
 import ${basePackage}.core.result.ResultGenerator;
-import ${basePackage}.model.${modelNameUpperCamel};
+import ${basePackage}.pojo.model.${modelNameUpperCamel};
 import ${basePackage}.service.${modelNameUpperCamel}Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
